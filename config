@@ -1,0 +1,14 @@
+CROSS = 
+
+CC = $(CROSS)gcc
+AR = $(CROSS)ar
+AS = $(CROSS)as
+RANLIB = $(CROSS)ranlib
+
+DEBUG_CFLAGS = -Wall -Os -g3
+
+ARCHS = 
+
+CONFIG_DEBUG = y
+
+COMPONENTS := utils libhttpd radmsrv
